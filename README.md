@@ -171,7 +171,7 @@ SELECT DISTINCT Product
 FROM [dbo].[Sales_Data]
 WHERE Product NOT IN (
     SELECT Product
-    FROM [dbo].[Capstone_Sales_Data]
+    FROM [dbo].[Sales_Data]
     WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 );
 ```
@@ -260,10 +260,91 @@ Based on the Total Revenue by Region data, here are some key inferences:
 
 - Market Focus: Given that the South and East regions account for a significant portion of total sales, they might be prioritized for future business strategies, promotions, or resource allocation to capitalize on their performance.
 
+#### Conclusion
 - Overall, the data suggests a strong market presence in the South and East regions, while the West region may require further investigation to understand its lower sales figures.
 
 
 
+### 5. **COUNT OF SALES IN EACH REGION**
+#### Pivot Table
+![Count of Sales by Region](https://github.com/user-attachments/assets/06cf1336-b94b-4e01-9107-ca1bd3841715)
+
+#### **Inference**
+- Sales Volume Consistency: The total count of sales across all regions is 9,921 transactions. The number of sales is relatively consistent across the regions, with only slight variations in counts.
+
+- Region Performance: The East region has the highest count of sales at 2,483 transactions, closely followed by North (2,481) and South (2,480). The West region has the lowest count at 2,477. This suggests that while the East has the highest transaction volume, the other regions are closely competitive in terms of the number of sales.
+
+- Sales Engagement: The relatively uniform distribution of sales counts across the regions indicates that customer engagement is similarly strong, particularly in the North and South regions, which have nearly the same transaction counts.
+
+- Comparison with Quantity Sold: When comparing these sales counts to the total sales quantity from the previous data (Sales Transaction per region), it appears that the East region, while having the highest count, also has a significant total sales quantity (20,361 units). This might suggest that while sales transactions are high, the average quantity per transaction varies between regions, with East possibly having higher average sales per transaction.
+
+- Opportunity for Optimization: Since the West region has the lowest count of sales, there may be opportunities to analyze customer behavior and preferences in this area to boost transaction counts. Targeted marketing strategies could be beneficial to increase engagement and sales in this region.
+
+#### Conclusion
+Overall, the data suggests a strong level of engagement across all regions, with the East region standing out in transaction counts, indicating a potentially larger customer base or more effective sales strategies.
+
+
+
+
+
+### 6. **TOTAL SALES BY MONTH**
+#### Pivot Table
+![Total Sales by Month](https://github.com/user-attachments/assets/86f5b115-b63f-48a2-ae29-edb04ad22aeb)
+
+#### **Inference**
+- Based on the total sales by month for the years 2023 and 2024,
+
+- Overall Growth: There is a noticeable increase in total sales from 38,681 units in 2023 to 29,780 units in the first eight months of 2024, indicating a growth trajectory. This growth suggests an overall positive trend in sales performance year-over-year.
+
+- Monthly Sales Patterns: In 2023, sales peaked in July (5,940 units), indicating strong mid-year performance, while the lowest sales occurred in May (994 units).
+In 2024, January and February show strong sales (3,968 and 4,980 units, respectively), with March having the highest sales for that year so far (5,478 units). This month-to-month growth indicates increased customer activity or successful marketing efforts.
+
+- Seasonal Trends: Sales in July and June in 2023 were particularly high, suggesting a possible seasonal trend where summer months drive higher sales. In contrast, sales in the early months of the year (January and February) show promising engagement in 2024.
+
+- Quarterly Comparison: The sales for the first quarter of 2024 (January to March) indicate strong performance (around 14,426 units), which is significantly higher than the total sales for the same months in 2023 (about 10,923 units). This could indicate successful strategies in place or an expanding market.
+
+- Potential for Q4: Given the sales figures for November and December in 2023, there is potential for strong performance in the fourth quarter of 2024, especially considering that holiday seasons typically drive up sales.
+
+#### Conclusion
+The data indicates a positive trend in total sales, with opportunities to optimize sales strategies around seasonal patterns and specific months that have historically low sales. Continued monitoring of these trends will be essential for forecasting and improving sales performance.
+
+#### Recommendation
+- Need for Analysis in Low Months: The notably low sales in May 2023 (994 units) and the decrease observed in July 2024 (2,480 units) warrant further investigation to understand the causes behind these dips and to develop strategies to boost sales during those periods.
+
+
+
+### 7. **TOTAL REVENUE BY PRODUCT**
+#### Pivot Table
+![Total Revenue by Product](https://github.com/user-attachments/assets/728ecab8-1168-47af-a230-53206749d069)
+
+#### **Inference**
+- Top Revenue Generators: Shoes are the highest revenue-generating product, accounting for (Currency)613,380, which represents about 29.2% of the total revenue of (Currency)2,101,090. This indicates that shoes are likely the most popular or in-demand product among customers.
+
+- Comparative Revenue Analysis: The shirt category follows as the second highest revenue contributor at (Currency)485,600, comprising approximately 23.1% of the total revenue. Together, shoes and shirts make up over half of the total revenue, highlighting their importance to the product lineup.
+
+- Strong Performance of Clothing: The jacket ((Currency)208,230) and gloves ((Currency)296,900) categories also contribute significantly to overall revenue, indicating a robust performance in outerwear and accessories. The total for jackets and gloves combined ((Currency)505,130) is substantial, showcasing a potential market for seasonal clothing.
+
+- Lower Revenue Products: Socks ((Currency)180,785) and hats ((Currency)316,195) have the lowest and moderate revenue levels, respectively. While they do contribute to total revenue, their figures are significantly lower compared to shoes, shirts, and gloves. This suggests a possible opportunity to enhance marketing strategies or promotions for these items to boost sales.
+
+ #### Conclusion
+ The analysis suggests that while several product categories are performing well, there is significant potential to optimize and expand upon the highest revenue-generating products, especially shoes and shirts, to further increase overall revenue.
+
+ #### Recommendation
+ - Potential for Product Focus: The data indicates that footwear and upper-body clothing items are primary revenue drivers. Retail strategies could be focused on promoting shoes and shirts more heavily, as they are already performing well.
+
+- Inventory and Development Focus: Given the revenue contributions, the company may consider expanding the product lines of shoes and shirts, possibly by introducing new styles or variations to capture even more market share.
+
+
+### 8.Other Analysis  
+#### Average Revenue by Product
+#### Pivot Table
+
+![Average Revenue by Product](https://github.com/user-attachments/assets/28848088-fabc-44de-adc7-112a63e37fec)
+
+#### Average Revenue by Region
+#### Pivot Table
+
+![Average Revenue by Region](https://github.com/user-attachments/assets/10a0071c-810e-4f6e-a5f1-6cfd08b392fd)
 
 
 
