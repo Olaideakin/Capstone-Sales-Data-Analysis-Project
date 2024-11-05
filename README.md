@@ -177,7 +177,8 @@ WHERE Product NOT IN (
 ```
 
 ## Data Visualization & Inferences
-- 1. AVERAGE SALES PER REGION
+
+### 1. **AVERAGE SALES PER REGION**
 
 ![Average Sales per Product](https://github.com/user-attachments/assets/2e515958-6894-4860-8ae4-9e476f80bf20)
 
@@ -194,19 +195,19 @@ Based on the analysis of Average Sales per Product, the following inferences are
 
 
 
-- 2. TOTAL REVENUE PER REGION
+### 2. TOTAL REVENUE PER REGION
 
 ![Total Revenue per Region](https://github.com/user-attachments/assets/69808ea5-0a28-4781-b9d0-ef0baffb0f83)
 
 Based on the Total Revenue by Region data, here are some key inferences:
 
--Highest Revenue: The South region has the highest total revenue, generating 927,820. This indicates strong sales performance and a significant customer base in the South, making it a crucial region for the business.
+- Highest Revenue: The South region has the highest total revenue, generating 927,820. This indicates strong sales performance and a significant customer base in the South, making it a crucial region for the business.
 
--Moderate Revenue: The East region follows with a total revenue of 485,925. While it's considerably lower than the South, it still represents a substantial share, suggesting steady sales activity in this area.
+- Moderate Revenue: The East region follows with a total revenue of 485,925. While it's considerably lower than the South, it still represents a substantial share, suggesting steady sales activity in this area.
 
--Lower Revenue: The North and West regions show the lowest revenue, with 387,000 and 300,345 respectively. This might indicate lower demand or market potential in these areas, or it could signal an opportunity for targeted marketing efforts to boost sales.
+- Lower Revenue: The North and West regions show the lowest revenue, with 387,000 and 300,345 respectively. This might indicate lower demand or market potential in these areas, or it could signal an opportunity for targeted marketing efforts to boost sales.
 
 - **Recommendations:**
--South Region: Continue supporting and possibly expanding in the South, as it’s the top-performing region.-
--East Region: Consider strategies to increase sales further in the East, as it has a promising revenue base.
--North and West Regions: Explore ways to improve sales in these regions, such as promotional activities, new product launches, or localized marketing, to increase their contribution to overall revenue.
+- South Region: Continue supporting and possibly expanding in the South, as it’s the top-performing region.
+- East Region: Consider strategies to increase sales further in the East, as it has a promising revenue base.
+- North and West Regions: Explore ways to improve sales in these regions, such as promotional activities, new product launches, or localized marketing, to increase their contribution to overall revenue.
