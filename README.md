@@ -219,6 +219,7 @@ Based on the Total Revenue by Region data, here are some key inferences:
 
 
 ### 3. **TOTAL SALES BY PRODUCT**
+
 #### Pivot Table
 ![Total Sales per Product](https://github.com/user-attachments/assets/f3b45c56-6b47-4f73-b901-b5f4d3b600b4)
 
@@ -241,3 +242,28 @@ Based on the Total Revenue by Region data, here are some key inferences:
 - Promote Lower-Performing Products: Consider promotional strategies for Jackets and possibly Socks to improve their sales performance.
 
   
+
+
+### 4. **TOTAL SALES TRANSACTION IN EACH REGION**
+#### Pivot Table
+![Total Sales by Region](https://github.com/user-attachments/assets/22c509e3-7326-44aa-a175-ae7d7a2d36cb)
+
+#### **Inference**
+
+- Regional Performance: The South region leads in total sales quantity with 24,298 units sold, which is significantly higher than any other region. It accounts for approximately 35.5% of the total sales.
+
+- Comparative Analysis: The East region follows as the second highest, with 20,361 units sold, making up about 29.7% of the total sales. In contrast, the West region has the lowest sales with 11,400 units, which represents only about 16.6% of the total. This indicates a disparity in sales performance across regions.
+
+- Total Sales Context: The grand total of sales across all regions is 68,461 units. This figure highlights the overall volume of sales and serves as a benchmark for evaluating the performance of each region.
+
+- Opportunity for Growth: The West region may present opportunities for growth or targeted marketing strategies to increase its sales, given its lower performance compared to the other regions.
+
+- Market Focus: Given that the South and East regions account for a significant portion of total sales, they might be prioritized for future business strategies, promotions, or resource allocation to capitalize on their performance.
+
+- Overall, the data suggests a strong market presence in the South and East regions, while the West region may require further investigation to understand its lower sales figures.
+
+
+
+
+
+
