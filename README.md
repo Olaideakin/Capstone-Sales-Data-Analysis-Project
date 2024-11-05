@@ -65,6 +65,8 @@ EDA involves exploring the dataset
 ```
 AVERAGEIF, SUMIF
 ```
+- Pivot Table
+  
 #### Query Used in SQL
 ```
 - **Total Sales for Each Product Category**
