@@ -347,4 +347,10 @@ The data indicates a positive trend in total sales, with opportunities to optimi
 ![Average Revenue by Region](https://github.com/user-attachments/assets/10a0071c-810e-4f6e-a5f1-6cfd08b392fd)
 
 
+### POWER BI 
+![Sales Data PowerBI Visuals](https://github.com/user-attachments/assets/86e09272-73b4-4ca3-8a97-857f499ace3a)
+
+![Sales Data PowerBI Visuals2](https://github.com/user-attachments/assets/3dfde917-a181-40be-8715-fc8b874e67a8)
+
+
 
