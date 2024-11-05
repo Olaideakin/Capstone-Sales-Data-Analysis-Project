@@ -328,6 +328,9 @@ The data indicates a positive trend in total sales, with opportunities to optimi
 #### Pivot Table
 ![Total Revenue by Product](https://github.com/user-attachments/assets/728ecab8-1168-47af-a230-53206749d069)
 
+#### Chart
+![Total Revenue by Product1](https://github.com/user-attachments/assets/a41c64d4-8ac1-4568-900c-3814eb5b1f82)
+
 #### **Inference**
 - Top Revenue Generators: Shoes are the highest revenue-generating product, accounting for (Currency)613,380, which represents about 29.2% of the total revenue of (Currency)2,101,090. This indicates that shoes are likely the most popular or in-demand product among customers.
 
