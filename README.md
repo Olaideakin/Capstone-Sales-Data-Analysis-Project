@@ -182,7 +182,7 @@ WHERE Product NOT IN (
 
 ![Average Sales per Product](https://github.com/user-attachments/assets/2e515958-6894-4860-8ae4-9e476f80bf20)
 
-- **Inference**
+#### **Inference**
 Based on the analysis of Average Sales per Product, the following inferences are drawn:
 - Top Performing Products: Gloves and Shirts have the highest average sales, with Gloves slightly leading at 8.33, followed closely by Shirts at 8.33 as well. This suggests that these two items are particularly popular or frequently purchased, potentially due to higher demand or seasonality.
 
@@ -190,7 +190,7 @@ Based on the analysis of Average Sales per Product, the following inferences are
 
 - Lower Performing Products: Socks and Jackets have lower average sales, with Jackets at the lowest (3.66) and Socks slightly higher (5.34). This might suggest these items are either less in demand or possibly seasonal items with less consistent sales.
 
-- **Recommendations**:
+#### **Recommendations**:
 - To maximize sales, focusing on maintaining the availability and potentially promoting high-performing products like Gloves and Shirts could be beneficial.
 - For lower-performing items like Jackets, consider evaluating pricing strategies or bundling options to boost sales.
 
@@ -201,7 +201,7 @@ Based on the analysis of Average Sales per Product, the following inferences are
 
 ![Total Revenue per Region](https://github.com/user-attachments/assets/69808ea5-0a28-4781-b9d0-ef0baffb0f83)
 
-- **Inference**
+#### **Inference**
 Based on the Total Revenue by Region data, here are some key inferences:
 
 - Highest Revenue: The South region has the highest total revenue, generating 927,820. This indicates strong sales performance and a significant customer base in the South, making it a crucial region for the business.
@@ -210,7 +210,7 @@ Based on the Total Revenue by Region data, here are some key inferences:
 
 - Lower Revenue: The North and West regions show the lowest revenue, with 387,000 and 300,345 respectively. This might indicate lower demand or market potential in these areas, or it could signal an opportunity for targeted marketing efforts to boost sales.
 
-- **Recommendations:**
+#### **Recommendations:**
 - South Region: Continue supporting and possibly expanding in the South, as it’s the top-performing region.
 - East Region: Consider strategies to increase sales further in the East, as it has a promising revenue base.
 - North and West Regions: Explore ways to improve sales in these regions, such as promotional activities, new product launches, or localized marketing, to increase their contribution to overall revenue.
@@ -222,7 +222,7 @@ Based on the Total Revenue by Region data, here are some key inferences:
 #### Pivot Table
 ![Total Sales per Product](https://github.com/user-attachments/assets/f3b45c56-6b47-4f73-b901-b5f4d3b600b4)
 
-- **Inference**
+#### **Inference**
 - Here are some observations and inferences based on the pivot table above
 
 - Top-Selling Product: Hat is the highest-selling product, with a quantity of 15,929 units sold. This indicates strong demand and popularity, making it a key product in the sales portfolio.
@@ -233,10 +233,10 @@ Based on the Total Revenue by Region data, here are some key inferences:
 
 - Lowest-Selling Product: Jacket has the lowest total sales, with only 5,452 units sold. This may indicate lower demand or higher pricing, potentially making it a candidate for targeted promotions or bundling to boost sales.
 
-- **Conclusion**
+#### **Conclusion**
 - With a grand total of 68,461 units sold across all products, this breakdown allows for a focused approach in inventory management and marketing efforts to maximize overall sales.
   
-- **Recommendations**:
+#### **Recommendations**:
 - Focus on High Performers: Continue supporting Hat, Shoes, Shirt, and Gloves, as they are the main contributors to total sales.
 - Promote Lower-Performing Products: Consider promotional strategies for Jackets and possibly Socks to improve their sales performance.
 
