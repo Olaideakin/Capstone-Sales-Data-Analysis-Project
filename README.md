@@ -176,7 +176,22 @@ WHERE Product NOT IN (
 );
 ```
 
-## Data Visualization
+## Data Visualization & Inferences
+- 1. AVERAGE SALES PER REGION
+
 ![Average Sales per Product](https://github.com/user-attachments/assets/2e515958-6894-4860-8ae4-9e476f80bf20)
+
+Based on the analysis of Average Sales per Product, we can draw the following inferences:
+- Top Performing Products: Gloves and Shirts have the highest average sales, with Gloves slightly leading at 8.33, followed closely by Shirts at 8.33 as well. This suggests that these two items are particularly popular or frequently purchased, potentially due to higher demand or seasonality.
+
+- Moderate Performance: Hats also perform relatively well with an average sale of 8.00, indicating steady demand. Shoes, with an average sale of 7.25, are close in performance, suggesting they are also a popular choice among customers.
+
+- Lower Performing Products: Socks and Jackets have lower average sales, with Jackets at the lowest (3.66) and Socks slightly higher (5.34). This might suggest these items are either less in demand or possibly seasonal items with less consistent sales.
+
+- Recommendation for Focus: To maximize sales, focusing on maintaining the availability and potentially promoting high-performing products like Gloves and Shirts could be beneficial. For lower-performing items like Jackets, consider evaluating pricing strategies or bundling options to boost sales.
+
+
+
+
 ![Total Revenue per Region](https://github.com/user-attachments/assets/69808ea5-0a28-4781-b9d0-ef0baffb0f83)
 
