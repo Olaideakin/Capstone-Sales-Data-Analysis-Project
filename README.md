@@ -49,13 +49,13 @@ The initial phase of the data cleaning and preparations performed the following 
 EDA involves exploring the dataset
 1. Use of pivot tables to summarize total sales by product, region, and month
 2. Use of SQL to query and 
-a)  retrieve the total sales for each product category.
-b) find the number of sales transactions in each region.
-c) find the highest-selling product by total sales value.
-d) calculate total revenue per product.
-e) calculate monthly sales totals for the current year.
-f) find the top 5 customers by total purchase amount.
-g) calculate the percentage of total sales contributed by each region.
-h) identify products with no sales in the last quarter.
+- a)  retrieve the total sales for each product category.
+- b) find the number of sales transactions in each region.
+- c) find the highest-selling product by total sales value.
+- d) calculate total revenue per product.
+- e) calculate monthly sales totals for the current year.
+- f) find the top 5 customers by total purchase amount.
+- g) calculate the percentage of total sales contributed by each region.
+- h) identify products with no sales in the last quarter.
 3. Use of Power BI to create a dashboard that visualizes the insights found in Excel and SQL.
-The dashboard includes a sales overview, top-performing products, and regional breakdowns
+- The dashboard includes a sales overview, top-performing products, and regional breakdowns
