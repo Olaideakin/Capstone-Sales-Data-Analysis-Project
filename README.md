@@ -223,5 +223,21 @@ Based on the Total Revenue by Region data, here are some key inferences:
 ![Total Sales per Product](https://github.com/user-attachments/assets/f3b45c56-6b47-4f73-b901-b5f4d3b600b4)
 
 - **Inference**
+- Here are some observations and inferences based on the pivot table above
+
+- Top-Selling Product: Hat is the highest-selling product, with a quantity of 15,929 units sold. This indicates strong demand and popularity, making it a key product in the sales portfolio.
+
+- High Performers: Shoes, Shirt, and Gloves are also top performers, with sales quantities of 14,402, 12,388, and 12,369 respectively. These products have substantial sales, suggesting they are also popular and contribute significantly to overall revenue.
+
+- Moderate Sales: Socks have a moderate sales quantity of 7,921 units, indicating a decent demand, though it’s lower than the high-performing products.
+
+- Lowest-Selling Product: Jacket has the lowest total sales, with only 5,452 units sold. This may indicate lower demand or higher pricing, potentially making it a candidate for targeted promotions or bundling to boost sales.
+
+- **Conclusion**
+- With a grand total of 68,461 units sold across all products, this breakdown allows for a focused approach in inventory management and marketing efforts to maximize overall sales.
+  
+- **Recommendations**:
+- Focus on High Performers: Continue supporting Hat, Shoes, Shirt, and Gloves, as they are the main contributors to total sales.
+- Promote Lower-Performing Products: Consider promotional strategies for Jackets and possibly Socks to improve their sales performance.
 
   
