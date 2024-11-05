@@ -65,12 +65,10 @@ EDA involves exploring the dataset
 ```
 AVERAGEIF, SUMIF
 ```
-- Pivot Table
   
 #### Query Used in SQL
 ```
 - **Total Sales for Each Product Category**
-
 SELECT PRODUCT, SUM(Quantity) AS total_sales
 FROM [dbo].[Sales_Data]
 GROUP BY Product
@@ -182,6 +180,7 @@ WHERE Product NOT IN (
 
 ### 1. **AVERAGE SALES PER REGION**
 
+#### Pivot Table
 ![Average Sales per Product](https://github.com/user-attachments/assets/2e515958-6894-4860-8ae4-9e476f80bf20)
 
 #### **Inference**
@@ -201,6 +200,7 @@ Based on the analysis of Average Sales per Product, the following inferences are
 
 ### 2. TOTAL REVENUE PER REGION
 
+#### Pivot Table
 ![Total Revenue per Region](https://github.com/user-attachments/assets/69808ea5-0a28-4781-b9d0-ef0baffb0f83)
 
 #### **Inference**
