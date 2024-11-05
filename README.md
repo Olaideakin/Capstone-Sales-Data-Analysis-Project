@@ -1,20 +1,20 @@
-### Project Overview
+## Project Overview
 This project contains a comprehensive analysis of sales data across four regions, focused on understanding revenue trends, customer behavior, and key performance metrics. The project aims to identify insights that drive better decision-making in marketing, inventory management, and regional strategy.
 
-### Project Significance
+## Project Significance
 This sales data analysis project plays a crucial role in understanding and driving strategic growth across multiple regions. By analyzing detailed sales patterns, customer preferences, and revenue trends, the project enables businesses to make data-informed decisions on product distribution, inventory management, and marketing focus. With insights derived from this analysis, companies can identify top-performing products and regions, optimize resource allocation, and adapt quickly to changes in customer demand.
 
 With increasing regional variation in consumer behavior, understanding each region's unique sales patterns allows businesses to refine their approach and better meet customer needs. Did you know? Companies that use data-driven strategies are 23 times more likely to acquire customers—highlighting the value of data in creating competitive advantages and sustainable growth.
 
 This project empowers stakeholders with tools for effective decision-making and the potential to uncover trends that might otherwise go unnoticed, ensuring that every region can maximize its growth potential.
 
-### Data Sources/ Data Generation
+## Data Sources/ Data Generation
 Capstone Sales Data: The primary dataset used for this analysis is the "Capstone Sales Data" file, containing detailed datapoints which include but not limited to product, orderdate, quantity and unit price. The dataset was generated from different region.
 
-### Data Structure
+## Data Structure
 The sales dataset employed for this analysis was structured (dataset was in a tabular form). 
 
-### Data Description
+## Data Description
 The dataset contained the essential datapoints:
 
 - OrderID: A unique identifier assigned to each individual transaction or order within the sales dataset
@@ -26,7 +26,7 @@ The dataset contained the essential datapoints:
 - Unit Price: The cost per single unit of a product sold, listed in the currency relevant to the dataset
 - Revenue: The total monetary value generated from the sale
 
-### Tools Used
+## Tools Used
 - Microsoft Excel [Download Here](https://www.microsoft.com)
   The dataset was ingested, transformed, visualized, analysed and presented
 1) For Data Cleaning: The capstone sales dataset was cleaned to ensure duplicates were removed and ensured all columns were properly
@@ -39,13 +39,13 @@ The dataset contained the essential datapoints:
   
 - Power BI(Business Intelligence) for Data Visualization [Download Here](https://www.microsoft.com)
 
-### Data Cleaning and Preparation
+## Data Cleaning and Preparation
 The initial phase of the data cleaning and preparations performed the following actions;
 1) Data loading and inspection
 2) Handling missing variables
 3) Data cleaning and formatting
 
-### Exploratory Data Analysis
+## Exploratory Data Analysis
 EDA involves exploring the dataset
 1. Use of pivot tables to summarize total sales by product, region, and month
 2. Use of SQL to query and 
@@ -60,7 +60,7 @@ EDA involves exploring the dataset
 3. Use of Power BI to create a dashboard that visualizes the insights found in Excel and SQL.
 - The dashboard includes a sales overview, top-performing products, and regional breakdowns
 
-### Data Analysis
+## Data Analysis
 #### Functions Used in Excel
 ```
 AVERAGEIF, SUMIF
@@ -176,4 +176,7 @@ WHERE Product NOT IN (
 );
 ```
 
-### Data Visualization
+## Data Visualization
+![Average Sales per Product](https://github.com/user-attachments/assets/2e515958-6894-4860-8ae4-9e476f80bf20)
+![Total Revenue per Region](https://github.com/user-attachments/assets/69808ea5-0a28-4781-b9d0-ef0baffb0f83)
+
