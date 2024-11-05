@@ -79,34 +79,46 @@ FROM [dbo].[Sales_Data]
 GROUP BY Product
 ORDER BY Total_sales
 ```
+
+```
 - **Number of Sales Transaction in Each Region**
 SELECT Region, Count(Region) AS Number_of_sales
 FROM [dbo].[Sales_Data]
 GROUP BY Region
 ORDER BY Number_of_sales desc
+```
 
+```
 SELECT Region, Count(Region) AS Number_of_sales
 FROM [dbo].[Sales_Data]
 GROUP BY Region
 ORDER BY Number_of_sales
+```
 
+```
 - **Highest-Selling Product by Total Sales Value**
 SELECT Top 1 Product, SUM(Quantity * UnitPrice) as TotalSalesValue
 from [dbo].[Sales_Data]
 Group by Product
 order by TotalSalesValue desc
+```
 
+```
 - **Highest-Selling Product by Total Sales**
 SELECT Top 1 Product, SUM(Quantity) as TotalSales
 from [dbo].[Sales_Data]
 Group by Product
 order by TotalSales desc
+```
 
+```
 - **Total Revenue Per Product**
 SELECT PRODUCT, SUM(UnitPrice*Quantity) AS total_revenue
 FROM [dbo].[Sales_Data]
 GROUP BY Product
+```
 
+```
 - **Monthly Sales Totals for the Year 2023 & 2024**
 SELECT MONTH(OrderDate) AS Month, 
        SUM(Quantity * UnitPrice) AS TotalRevenue
@@ -114,7 +126,9 @@ FROM [dbo].[Sales_Data]
 WHERE YEAR(OrderDate) IN (2023, 2024)
 GROUP BY MONTH(OrderDate)
 ORDER BY Month
+```
 
+```
 - **Monthly Sales Totals for the Current Year**
 SELECT MONTH(OrderDate) AS Month, 
        SUM(Quantity * UnitPrice) AS TotalRevenue
@@ -122,14 +136,18 @@ FROM [dbo].[Sales_Data]
 WHERE YEAR(OrderDate) IN (2024)
 GROUP BY MONTH(OrderDate)
 ORDER BY Month
+```
 
+```
 -**Top 5 Customers by Total Purchase Amount**
 SELECT Top 5 Customer_id, 
        SUM(Quantity * UnitPrice) AS Total_Purchase_Amount
 FROM [dbo].[Sales_Data]
 GROUP BY Customer_id
 ORDER BY Total_Purchase_Amount DESC
+```
 
+```
 - **Percentage of total sales contributed by each region**
 WITH TotalSales AS (
     SELECT SUM(Quantity * UnitPrice) AS OverallTotalSales
@@ -145,7 +163,9 @@ SELECT Region,
        RegionTotalSales,
        (RegionTotalSales * 100.0 / OverallTotalSales) AS PercentageOfTotalSales
 FROM RegionSales, TotalSales;
+```
 
+```
 - **Products with no sales in the last quarter**
 SELECT DISTINCT Product
 FROM [dbo].[Sales_Data]
@@ -154,5 +174,6 @@ WHERE Product NOT IN (
     FROM [dbo].[Capstone_Sales_Data]
     WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 );
+```
 
 ### Data Visualization
