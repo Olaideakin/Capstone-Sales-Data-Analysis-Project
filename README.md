@@ -225,6 +225,9 @@ Based on the Total Revenue by Region data, here are some key inferences:
 #### Pivot Table
 ![Total Sales per Product](https://github.com/user-attachments/assets/f3b45c56-6b47-4f73-b901-b5f4d3b600b4)
 
+#### Chart
+![Total Sales by Product1](https://github.com/user-attachments/assets/29fdb218-c0ec-4b26-8537-9cb0301d8881)
+
 #### **Inference**
 - Here are some observations and inferences based on the pivot table above
 
@@ -250,6 +253,9 @@ Based on the Total Revenue by Region data, here are some key inferences:
 #### Pivot Table
 ![Total Sales by Region](https://github.com/user-attachments/assets/22c509e3-7326-44aa-a175-ae7d7a2d36cb)
 
+#### Chart
+![Total Sales by Region1](https://github.com/user-attachments/assets/63e6e5e5-b4d6-4639-8201-3a6bee3c5d1b)
+
 #### **Inference**
 
 - Regional Performance: The South region leads in total sales quantity with 24,298 units sold, which is significantly higher than any other region. It accounts for approximately 35.5% of the total sales.
@@ -270,6 +276,9 @@ Based on the Total Revenue by Region data, here are some key inferences:
 ### 5. **COUNT OF SALES IN EACH REGION**
 #### Pivot Table
 ![Count of Sales by Region](https://github.com/user-attachments/assets/06cf1336-b94b-4e01-9107-ca1bd3841715)
+
+#### Chart
+![Count of Sales by Region1](https://github.com/user-attachments/assets/e725cd38-67df-4c41-bcdf-f92e9afded73)
 
 #### **Inference**
 - Sales Volume Consistency: The total count of sales across all regions is 9,921 transactions. The number of sales is relatively consistent across the regions, with only slight variations in counts.
