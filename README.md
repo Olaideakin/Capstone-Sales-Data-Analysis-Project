@@ -59,3 +59,23 @@ EDA involves exploring the dataset
 - h) identify products with no sales in the last quarter.
 3. Use of Power BI to create a dashboard that visualizes the insights found in Excel and SQL.
 - The dashboard includes a sales overview, top-performing products, and regional breakdowns
+
+#### Data Analysis
+### Functions Used in Excel
+```
+AVERAGEIF, SUMIF
+```
+### Query Used in SQL
+```
+- Total Sales for Each Product Category
+
+SELECT PRODUCT, SUM(Quantity) AS total_sales
+FROM [dbo].[Sales_Data]
+GROUP BY Product
+ORDER BY Total_sales DESC
+
+SELECT PRODUCT, SUM(Quantity) AS total_sales
+FROM [dbo].[Sales_Data]
+GROUP BY Product
+ORDER BY Total_sales
+```
