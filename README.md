@@ -181,17 +181,32 @@ WHERE Product NOT IN (
 
 ![Average Sales per Product](https://github.com/user-attachments/assets/2e515958-6894-4860-8ae4-9e476f80bf20)
 
-Based on the analysis of Average Sales per Product, we can draw the following inferences:
+Based on the analysis of Average Sales per Product, the following inferences are drawn:
 - Top Performing Products: Gloves and Shirts have the highest average sales, with Gloves slightly leading at 8.33, followed closely by Shirts at 8.33 as well. This suggests that these two items are particularly popular or frequently purchased, potentially due to higher demand or seasonality.
 
 - Moderate Performance: Hats also perform relatively well with an average sale of 8.00, indicating steady demand. Shoes, with an average sale of 7.25, are close in performance, suggesting they are also a popular choice among customers.
 
 - Lower Performing Products: Socks and Jackets have lower average sales, with Jackets at the lowest (3.66) and Socks slightly higher (5.34). This might suggest these items are either less in demand or possibly seasonal items with less consistent sales.
 
-- Recommendation for Focus: To maximize sales, focusing on maintaining the availability and potentially promoting high-performing products like Gloves and Shirts could be beneficial. For lower-performing items like Jackets, consider evaluating pricing strategies or bundling options to boost sales.
+- **Recommendations**:
+- To maximize sales, focusing on maintaining the availability and potentially promoting high-performing products like Gloves and Shirts could be beneficial.
+- For lower-performing items like Jackets, consider evaluating pricing strategies or bundling options to boost sales.
 
 
 
+- 2. TOTAL REVENUE PER REGION
 
 ![Total Revenue per Region](https://github.com/user-attachments/assets/69808ea5-0a28-4781-b9d0-ef0baffb0f83)
 
+Based on the Total Revenue by Region data, here are some key inferences:
+
+-Highest Revenue: The South region has the highest total revenue, generating 927,820. This indicates strong sales performance and a significant customer base in the South, making it a crucial region for the business.
+
+-Moderate Revenue: The East region follows with a total revenue of 485,925. While it's considerably lower than the South, it still represents a substantial share, suggesting steady sales activity in this area.
+
+-Lower Revenue: The North and West regions show the lowest revenue, with 387,000 and 300,345 respectively. This might indicate lower demand or market potential in these areas, or it could signal an opportunity for targeted marketing efforts to boost sales.
+
+- **Recommendations:**
+-South Region: Continue supporting and possibly expanding in the South, as it’s the top-performing region.-
+-East Region: Consider strategies to increase sales further in the East, as it has a promising revenue base.
+-North and West Regions: Explore ways to improve sales in these regions, such as promotional activities, new product launches, or localized marketing, to increase their contribution to overall revenue.
